@@ -1,0 +1,154 @@
+.plan {
+  padding: 5%;
+}
+
+.plan-content {
+  background: var(--primary-card-color);
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.plan-text h1 {
+  font-family: var(--secondary-font-family);
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.plan-text p {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 2rem;
+}
+
+.plan-box {
+  border-radius: 20px;
+  padding: 50px;
+  background: var(--bg-color);
+}
+
+.plan-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-heading-active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-heading h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #aeaeae8d;
+}
+
+.plan-heading-active h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.plan-heading span {
+  color: #aeaeae8d;
+  font-size: 19px;
+}
+
+.plan-heading-active span {
+  color: #fff;
+  font-size: 19px;
+}
+
+.border-bottom {
+  width: 100%;
+  height: 1.5px;
+  background-color: #aeaeae8d;
+  margin: 40px 0 40px 0;
+}
+
+.plan-description {
+  display: flex;
+  align-items: center;
+}
+
+.plan-description-active {
+  display: flex;
+  align-items: center;
+}
+
+.plan-description p {
+  margin-right: 25px;
+  color: #aeaeae8d;
+}
+
+.plan-description-active p {
+  margin-right: 25px;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .plan-content {
+    padding: 20px;
+  }
+  .plan-heading,
+  .plan-heading-active {
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-heading span {
+    margin-top: 1rem;
+  }
+
+  .plan-description,
+  .plan-description-active {
+    margin-top: 1rem;
+    display: flex;
+
+    flex-direction: column;
+  }
+  .plan-heading h1,
+  .plan-heading-active h1,
+  .plan-description p,
+  .plan-description-active p {
+    
+    text-align: center;
+  }
+
+  .plan-description p,
+  .plan-description-active p {
+    margin-right: 0;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .plan-heading h1,
+  .plan-heading-active h1 {
+    font-size: 30px;
+  }
+}
+
+.price-circle {
+  padding: 30px;
+  background: var(--secondary-card-color);
+  border-radius: 49%;
+  text-align: center;
+
+  border: 4px solid snow;
+  transform: rotate(20deg);
+  margin: 20px 0 20px 0;
+}
+
+.price-circle h2 {
+  font-weight: 800;
+
+  font-size: 45px;
+}
+
+.price-circle p {
+  font-weight: 400;
+  font-size: 12px;
+}

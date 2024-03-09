@@ -1,0 +1,27 @@
+.brands {
+  padding: 5%;
+}
+
+.brands-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brands-img img {
+  aspect-ratio: 3/3;
+  object-fit: contain;
+  mix-blend-mode: color-dodge;
+}
+
+.brands-img h1 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .brands-img {
+    flex-direction: column;
+  }
+}
